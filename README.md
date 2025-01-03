@@ -102,6 +102,13 @@ pip install pandas numpy scikit-learn seaborn matplotlib
    print(f"The recommended crop is: {prediction}")
 
    ```
+
+### Web App Snapshot
+```
+The below image displays a web-based Crop Recommendation System Using Machine Learning. The system features a simple user interface where users can input key agricultural parameters, including Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, and Rainfall. Once the user fills in these values and clicks the "Get Recommendation" button, the system suggests the most suitable crop for cultivation based on the given conditions. In the example shown, the recommended crop is Muskmelon, highlighted with an accompanying image of fruits and vegetables.
+
+```
+
 ![Initiated_Image](https://drive.google.com/uc?export=view&id=1EF8kHf7fE3ekgdpARXTRsCBGwA1zHw42)
 
    ### 3. Loading the Saved Model: You can load the saved model and scalers using pickle:
