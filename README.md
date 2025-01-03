@@ -102,6 +102,8 @@ pip install pandas numpy scikit-learn seaborn matplotlib
    print(f"The recommended crop is: {prediction}")
 
    ```
+![Crop Image](images/crop_image.jpg)
+
    ### 3. Loading the Saved Model: You can load the saved model and scalers using pickle:
    model = pickle.load(open('model.pkl', 'rb'))
    mx = pickle.load(open('minmaxscaler.pkl', 'rb'))
