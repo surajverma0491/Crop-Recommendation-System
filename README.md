@@ -107,5 +107,8 @@ pip install pandas numpy scikit-learn seaborn matplotlib
    mx = pickle.load(open('minmaxscaler.pkl', 'rb'))
    sc = pickle.load(open('standscaler.pkl', 'rb'))
 
+## Conclusion
+This crop recommendation system leverages machine learning techniques to predict suitable crops based on environmental and soil conditions. The model is optimized using multiple classifiers and then used for real-time predictions. The system is saved and ready for future use, providing a valuable tool for farmers and agricultural experts.
 
-
+## License
+This project is open-source and available under the MIT License.
