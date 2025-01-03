@@ -116,9 +116,12 @@ In the example shown, the recommended crop is Muskmelon, highlighted with an acc
 ![Initiated_Image](https://drive.google.com/uc?export=view&id=1EF8kHf7fE3ekgdpARXTRsCBGwA1zHw42)
 
    ### 3. Loading the Saved Model: You can load the saved model and scalers using pickle:
+   ```
    model = pickle.load(open('model.pkl', 'rb'))
    mx = pickle.load(open('minmaxscaler.pkl', 'rb'))
    sc = pickle.load(open('standscaler.pkl', 'rb'))
+
+```
 
 ## Conclusion
 This crop recommendation system leverages machine learning techniques to predict suitable crops based on environmental and soil conditions. The model is optimized using multiple classifiers and then used for real-time predictions. The system is saved and ready for future use, providing a valuable tool for farmers and agricultural experts.
